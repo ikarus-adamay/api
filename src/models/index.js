@@ -347,7 +347,7 @@ let artists = {
       }
     ]
   },
-  "sukrit_sethi": {
+  "sukrit__sethi": {
     "username": "sukrit__sethi",
     "displayName": "Sukrit Sethi",
     "image": "https://ik.imagekit.io/ad123/ss_0OqQU9xbs.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657254354314",
