@@ -1,1 +1,2 @@
-# Simple Node with Express Server with REST API
+# REST API using Express.js
+
