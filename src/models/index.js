@@ -1388,7 +1388,7 @@ let artists = {
       }
     ]
   },
-  "placeHolder":{
+  "placeholder":{
     "username": "placeholder",
     "displayName": "Place Holder",
     "image": "https://ik.imagekit.io/ad123/profile_53mYrdv_v.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657254353515",
