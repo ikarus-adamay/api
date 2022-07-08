@@ -14,14 +14,14 @@ app.use(express.urlencoded({ extended: true }));
 app.use((req, res, next) => {
   req.context = {
     models,
-    me: models.artists[1],
+    //me: models.artists[1],
   };
   next();
 });
 
-app.get('/session', (req, res) => {
-  return res.send(req.context.models.users[req.context.me.id]);
-});
+// app.get('/session', (req, res) => {
+//   return res.send(req.context.models.users[req.context.me.id]);
+// });
 
 app.get('/artists', (req, res) => {
   return res.send(Object.values(req.context.models.artists));
